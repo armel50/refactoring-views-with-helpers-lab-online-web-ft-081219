@@ -11,7 +11,7 @@ gem 'bootsnap'
 group :development, :test do
   gem 'pry'
   gem 'capybara'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 
 group :development do
